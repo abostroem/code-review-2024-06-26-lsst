@@ -6,9 +6,9 @@ from astropy.io import fits
 import glob
 data = np.ones([1024, 1024])
 data[500:600, 200:300] = 0
-col1 = data[20, :]
-col2 = data[200, :]
-col3 = data[800, :]
+col1 = data[70, :]
+col2 = data[700, :]
+col3 = data[700, :]
 pyplot.figure()
 pyplot.plot(np.arange(1024), col1)
 mean = np.mean(col1)

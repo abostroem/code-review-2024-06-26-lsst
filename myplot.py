@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib
+import pyplot
 import os
 from matplotlib import pyplot
 from astropy.io import fits

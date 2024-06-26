@@ -10,7 +10,7 @@ col2 = data[200, :]
 col3 = data[800, :]
 pyplot.figure()
 pyplot.plot(np.arange(1024), col1)
-mean = np.mean(col1)
+mean = col1.mean()
 pyplot.axhline(mean)
 pyplot.legend(['Column 20', 'Mean'])
 pyplot.title('Plot of Column 20 Values and Mean')

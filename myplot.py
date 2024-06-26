@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib
 import os
-from astropy.io import fits
 import glob
 data = np.ones([1024, 1024])
 data[500:600, 200:300] = 0
